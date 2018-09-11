@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EventLogger xmlns="Clearline Event Logger Config File">
+<LoggerDetails>
+<CustomerName>Clearline Protection Systems</CustomerName>
+<SiteName>Demo</SiteName>
+<Technician>Tech1</Technician>
+<ProductCode>Demo</ProductCode>
+<ProductSerial>Demo-123</ProductSerial>
+</LoggerDetails>
+<LoggerOptions>
+<StopFull>true</StopFull>
+<OverwriteFull>false</OverwriteFull>
+<DeleteEvents>false</DeleteEvents>
+</LoggerOptions>
+<LinetoNeutralThresholds>
+<SagDisconnect>150</SagDisconnect>
+<SagReconnect>180</SagReconnect>
+<SwellDisconnect>260</SwellDisconnect>
+<SwellReconnect>250</SwellReconnect>
+<TransientVoltage>350</TransientVoltage>
+</LinetoNeutralThresholds>
+<FreqeuncyThresholds>
+<FreqMinimum>47</FreqMinimum>
+<FreqMaximum>53</FreqMaximum>
+</FreqeuncyThresholds>
+</EventLogger>

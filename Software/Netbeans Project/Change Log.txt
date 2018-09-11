@@ -1,0 +1,17 @@
+# Change Log
+All notable changes to the Reflow Controller GUI Software will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/) 
+and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [1.1.0] - 2017-02-26
+### Added
+- Add timer to get temperatures while oven idel, every 10 seconds
+- Graph auto size in y-axis
+
+### Fixed
+- Fix export when in temperature controller mode, header strings incorrect
+
+## [1.0.0] - 2017-01-17
+### Added
+- Initial release
